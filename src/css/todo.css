@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	padding-left: 20px;
+}
+.container > span {
+	margin-bottom: 20px;
+}
+input[type='button'] {
+	margin-left: 20px;
+}
+.wrapTodo{
+	display: flex;
+	padding-top: 20px;
+}
+.listTodo {
+	list-style: circle;
+	cursor: pointer;
+	margin: 0;
+}
+.infoTodo {
+	margin-left: 20px;
+}
+.infoTodo >span {
+	color:blue;
+	font-style: italic;
+}
+span {
+	display: block;
+	font-family: Arial;
+	font-size: 14px;
+}
